@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #ffffff;
+  --ink: #0a0a0a;
+  --stone: #6b6b6b;
+  --rule: rgba(10, 10, 10, 0.12);
+  --accent: #0a0a0a;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-stone: var(--stone);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-sans-grotesk);
+  --font-serif: var(--font-display-serif);
+  --font-mono: var(--font-mono-spec);
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.font-display {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+}
+
+.font-meta {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--stone);
+}
+
+.rule {
+  border-top: 1px solid var(--rule);
+}
+
+.placeholder-photo {
+  background:
+    radial-gradient(ellipse at 30% 70%, #6b6e72 0%, transparent 55%),
+    radial-gradient(ellipse at 70% 30%, #3a3d40 0%, transparent 60%),
+    linear-gradient(180deg, #2a2c2e 0%, #4a4d50 100%);
+}
+
