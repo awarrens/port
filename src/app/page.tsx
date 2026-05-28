@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
       {/* Right — prose */}
-      <div className="px-6 md:px-14 py-12 md:py-14 flex flex-col gap-10 md:gap-12 min-h-screen">
+      <div className="px-6 md:px-14 py-12 md:py-14 flex flex-col gap-10 md:gap-12 md:min-h-screen">
         <p className="font-sans text-xl md:text-[1.5rem] leading-[1.3] max-w-[52ch] text-ink">
           Helping organizations make sense of people, systems, and complexity
         </p>
@@ -45,7 +45,7 @@ export default function Home() {
           support decisions that hold up over time.
         </p>
 
-        <p className="font-sans text-sm md:text-base text-stone mt-auto">
+        <p className="font-sans text-sm md:text-base text-stone md:mt-auto">
           <span aria-hidden>🌱</span> Selected work and writing coming soon.
         </p>
       </div>
