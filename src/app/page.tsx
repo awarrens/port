@@ -23,7 +23,7 @@ export default function Home() {
           Sass
         </h1>
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/andrew-sass/"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute bottom-6 left-6 md:bottom-10 md:left-12 font-sans font-medium text-xl md:text-2xl text-white/95 hover:text-white transition-colors"
