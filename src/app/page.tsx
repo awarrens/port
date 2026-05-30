@@ -42,10 +42,9 @@ export default function Home() {
           My work focuses on understanding people and organizations,
           identifying meaningful patterns, and translating insight into action.
           I shape those insights into experiences that are both functional and
-          well-crafted, and I stay close to the outcomes to make sure the work
-          holds up over time. Seven years in, my work spans consumer products
-          like Senior Planet (with AARP) and internal portals across medical,
-          manufacturing, and wellness.
+          well-crafted. Seven years in, across consumer products like Senior
+          Planet (with AARP) and internal portals in medical, manufacturing,
+          and wellness.
         </p>
 
         <p className="font-sans text-sm md:text-base text-stone md:mt-auto">
