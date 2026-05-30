@@ -39,10 +39,10 @@ export default function Home() {
         </p>
 
         <p className="font-display text-[1.9rem] md:text-[3.25rem] leading-[1.12] tracking-[-0.015em] flex-1">
-          My work focuses on understanding people and organizations,
-          identifying meaningful patterns, and translating insight into action.
-          I collaborate closely with teams through research and synthesis to
-          support decisions that hold up over time.
+          My work focuses on understanding people and systems, identifying
+          meaningful patterns, and translating insight into action. I shape
+          those patterns into experiences that are both functional and
+          well-crafted, grounded in data and built to hold up over time.
         </p>
 
         <p className="font-sans text-sm md:text-base text-stone md:mt-auto">
