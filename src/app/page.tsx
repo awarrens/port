@@ -45,9 +45,31 @@ export default function Home() {
           well-crafted, grounded in data and built to hold up over time.
         </p>
 
-        <p className="font-sans text-sm md:text-base text-stone md:mt-auto">
-          <span aria-hidden>🌱</span> Selected work and writing coming soon.
-        </p>
+        <div className="md:mt-auto">
+          <h2 className="font-sans text-xs md:text-sm text-stone uppercase tracking-[0.12em] mb-3">
+            <span aria-hidden>🌱</span> Sample works
+          </h2>
+          <ul className="space-y-2">
+            <li>
+              <a
+                href="https://stirring-kayak-d03.notion.site/Wins-Opportunties-vol-1-38299a160fbe8013ba52f96c33661bec"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group font-sans text-base md:text-lg text-ink inline-flex items-baseline gap-1.5"
+              >
+                <span className="group-hover:underline underline-offset-4">
+                  Research &amp; Opportunities Sample
+                </span>
+                <span
+                  aria-hidden
+                  className="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all no-underline"
+                >
+                  →
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
   );
